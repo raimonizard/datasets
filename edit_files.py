@@ -11,4 +11,4 @@ print(pokedex_1.head(5))
 print(pokedex.dtypes)
 print(pokedex_1.dtypes)
 
-pokedex_1.to_csv(path_or_buf="pokemon_op_wo_row_id.csv", sep=';', header=True, decimal='.', mode='x', quotechar='"', index=False, quoting=csv.QUOTE_NONNUMERIC)
+pokedex_1.to_csv(path_or_buf="pokemon_op_wo_row_id.csv", sep=',', header=True, decimal='.', mode='x', quotechar='"', index=False, quoting=csv.QUOTE_NONNUMERIC)
